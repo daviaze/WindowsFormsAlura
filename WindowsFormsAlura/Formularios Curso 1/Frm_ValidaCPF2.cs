@@ -49,5 +49,10 @@ namespace WindowsFormsAlura
         {
             Msk_CPF.Text = "";
         }
+
+        private void Msk_CPF_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
     }
 }

@@ -43,6 +43,7 @@ namespace WindowsFormsAlura
             this.Msk_CPF.Name = "Msk_CPF";
             this.Msk_CPF.Size = new System.Drawing.Size(218, 23);
             this.Msk_CPF.TabIndex = 0;
+            this.Msk_CPF.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.Msk_CPF_MaskInputRejected);
             // 
             // Btn_Reset
             // 
@@ -72,7 +73,9 @@ namespace WindowsFormsAlura
             this.Controls.Add(this.Btn_Valida);
             this.Controls.Add(this.Btn_Reset);
             this.Controls.Add(this.Msk_CPF);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Frm_ValidaCPF2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Validação CPF2";

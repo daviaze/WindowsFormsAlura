@@ -4,6 +4,12 @@
     <Compile Update="Formularios Curso 1\Frm_Mascara.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="UCs Curso 2\Frm_Mascara_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Frm_Principal_Menu_MDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Frm_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -18,6 +24,18 @@
     </Compile>
     <Compile Update="Frm_Principal_Menu.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_Principal_Menu_UC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UCs Curso 2\Frm_ValidaCPF2_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UCs Curso 2\Frm_ValidaCPF_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UCs Curso 2\Frm_ValidaSenhaForte_UC.cs">
+      <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
 </Project>

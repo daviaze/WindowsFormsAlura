@@ -27,33 +27,39 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Pichau\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CursoAlura\\CursoWindowsFormsAlura\\WindowsFormsAlura\\WindowsFormsAlura.csproj",
+      "projectUniqueName": "C:\\desenvolvimento\\CursoAlura\\WindowsFormsAlura\\WindowsFormsAlura\\WindowsFormsAlura.csproj",
       "projectName": "WindowsFormsAlura",
-      "projectPath": "C:\\CursoAlura\\CursoWindowsFormsAlura\\WindowsFormsAlura\\WindowsFormsAlura.csproj",
-      "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-      "outputPath": "C:\\CursoAlura\\CursoWindowsFormsAlura\\WindowsFormsAlura\\obj\\",
+      "projectPath": "C:\\desenvolvimento\\CursoAlura\\WindowsFormsAlura\\WindowsFormsAlura\\WindowsFormsAlura.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\desenvolvimento\\CursoAlura\\WindowsFormsAlura\\WindowsFormsAlura\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0-windows7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\CursoAlura\\CursoWindowsFormsAlura\\WindowsFormsAluraBiblioteca\\WindowsFormsAluraBiblioteca.csproj": {
-              "projectPath": "C:\\CursoAlura\\CursoWindowsFormsAlura\\WindowsFormsAluraBiblioteca\\WindowsFormsAluraBiblioteca.csproj"
+            "C:\\desenvolvimento\\CursoAlura\\WindowsFormsAlura\\WindowsFormsAluraBiblioteca\\WindowsFormsAluraBiblioteca.csproj": {
+              "projectPath": "C:\\desenvolvimento\\CursoAlura\\WindowsFormsAlura\\WindowsFormsAluraBiblioteca\\WindowsFormsAluraBiblioteca.csproj"
             }
           }
         }
@@ -85,7 +91,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

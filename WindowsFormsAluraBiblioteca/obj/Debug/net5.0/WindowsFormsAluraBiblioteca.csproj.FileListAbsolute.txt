@@ -10,3 +10,15 @@ C:\CursoAlura\CursoWindowsFormsAlura\WindowsFormsAluraBiblioteca\obj\Debug\net5.
 C:\CursoAlura\CursoWindowsFormsAlura\WindowsFormsAluraBiblioteca\obj\Debug\net5.0\WindowsFormsAluraBiblioteca.dll
 C:\CursoAlura\CursoWindowsFormsAlura\WindowsFormsAluraBiblioteca\obj\Debug\net5.0\ref\WindowsFormsAluraBiblioteca.dll
 C:\CursoAlura\CursoWindowsFormsAlura\WindowsFormsAluraBiblioteca\obj\Debug\net5.0\WindowsFormsAluraBiblioteca.pdb
+C:\desenvolvimento\CursoAlura\WindowsFormsAlura\WindowsFormsAluraBiblioteca\bin\Debug\net5.0\WindowsFormsAluraBiblioteca.deps.json
+C:\desenvolvimento\CursoAlura\WindowsFormsAlura\WindowsFormsAluraBiblioteca\bin\Debug\net5.0\WindowsFormsAluraBiblioteca.dll
+C:\desenvolvimento\CursoAlura\WindowsFormsAlura\WindowsFormsAluraBiblioteca\bin\Debug\net5.0\ref\WindowsFormsAluraBiblioteca.dll
+C:\desenvolvimento\CursoAlura\WindowsFormsAlura\WindowsFormsAluraBiblioteca\bin\Debug\net5.0\WindowsFormsAluraBiblioteca.pdb
+C:\desenvolvimento\CursoAlura\WindowsFormsAlura\WindowsFormsAluraBiblioteca\obj\Debug\net5.0\WindowsFormsAluraBiblioteca.csproj.AssemblyReference.cache
+C:\desenvolvimento\CursoAlura\WindowsFormsAlura\WindowsFormsAluraBiblioteca\obj\Debug\net5.0\WindowsFormsAluraBiblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\desenvolvimento\CursoAlura\WindowsFormsAlura\WindowsFormsAluraBiblioteca\obj\Debug\net5.0\WindowsFormsAluraBiblioteca.AssemblyInfoInputs.cache
+C:\desenvolvimento\CursoAlura\WindowsFormsAlura\WindowsFormsAluraBiblioteca\obj\Debug\net5.0\WindowsFormsAluraBiblioteca.AssemblyInfo.cs
+C:\desenvolvimento\CursoAlura\WindowsFormsAlura\WindowsFormsAluraBiblioteca\obj\Debug\net5.0\WindowsFormsAluraBiblioteca.csproj.CoreCompileInputs.cache
+C:\desenvolvimento\CursoAlura\WindowsFormsAlura\WindowsFormsAluraBiblioteca\obj\Debug\net5.0\WindowsFormsAluraBiblioteca.dll
+C:\desenvolvimento\CursoAlura\WindowsFormsAlura\WindowsFormsAluraBiblioteca\obj\Debug\net5.0\ref\WindowsFormsAluraBiblioteca.dll
+C:\desenvolvimento\CursoAlura\WindowsFormsAlura\WindowsFormsAluraBiblioteca\obj\Debug\net5.0\WindowsFormsAluraBiblioteca.pdb

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "WindowsFormsAlura/1.0.0": {
+        "dependencies": {
+          "WindowsFormsAluraBiblioteca": "1.0.0"
+        },
+        "runtime": {
+          "WindowsFormsAlura.dll": {}
+        }
+      },
+      "WindowsFormsAluraBiblioteca/1.0.0": {
+        "runtime": {
+          "WindowsFormsAluraBiblioteca.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WindowsFormsAlura/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WindowsFormsAluraBiblioteca/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

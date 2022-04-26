@@ -1,0 +1,12 @@
+C:\CursoAlura\CursoWindowsFormsAlura\WindowsFormsAluraBiblioteca\bin\Debug\net5.0\WindowsFormsAluraBiblioteca.deps.json
+C:\CursoAlura\CursoWindowsFormsAlura\WindowsFormsAluraBiblioteca\bin\Debug\net5.0\WindowsFormsAluraBiblioteca.dll
+C:\CursoAlura\CursoWindowsFormsAlura\WindowsFormsAluraBiblioteca\bin\Debug\net5.0\ref\WindowsFormsAluraBiblioteca.dll
+C:\CursoAlura\CursoWindowsFormsAlura\WindowsFormsAluraBiblioteca\bin\Debug\net5.0\WindowsFormsAluraBiblioteca.pdb
+C:\CursoAlura\CursoWindowsFormsAlura\WindowsFormsAluraBiblioteca\obj\Debug\net5.0\WindowsFormsAluraBiblioteca.csproj.AssemblyReference.cache
+C:\CursoAlura\CursoWindowsFormsAlura\WindowsFormsAluraBiblioteca\obj\Debug\net5.0\WindowsFormsAluraBiblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\CursoAlura\CursoWindowsFormsAlura\WindowsFormsAluraBiblioteca\obj\Debug\net5.0\WindowsFormsAluraBiblioteca.AssemblyInfoInputs.cache
+C:\CursoAlura\CursoWindowsFormsAlura\WindowsFormsAluraBiblioteca\obj\Debug\net5.0\WindowsFormsAluraBiblioteca.AssemblyInfo.cs
+C:\CursoAlura\CursoWindowsFormsAlura\WindowsFormsAluraBiblioteca\obj\Debug\net5.0\WindowsFormsAluraBiblioteca.csproj.CoreCompileInputs.cache
+C:\CursoAlura\CursoWindowsFormsAlura\WindowsFormsAluraBiblioteca\obj\Debug\net5.0\WindowsFormsAluraBiblioteca.dll
+C:\CursoAlura\CursoWindowsFormsAlura\WindowsFormsAluraBiblioteca\obj\Debug\net5.0\ref\WindowsFormsAluraBiblioteca.dll
+C:\CursoAlura\CursoWindowsFormsAlura\WindowsFormsAluraBiblioteca\obj\Debug\net5.0\WindowsFormsAluraBiblioteca.pdb

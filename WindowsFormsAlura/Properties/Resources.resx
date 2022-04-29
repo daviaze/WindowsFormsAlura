@@ -157,4 +157,16 @@
   <data name="Frm_ValidaSenha1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagens\frm_validasenha.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icons8_pasta_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens\icons8-pasta-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_pasta_161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens\icons8-pasta-16.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_question_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens\icons8-question-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_question_641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens\icons8-question-64.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

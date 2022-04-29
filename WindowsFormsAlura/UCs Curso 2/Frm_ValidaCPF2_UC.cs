@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsAlura.Dialogs;
 using WindowsFormsAluraBiblioteca;
 
 namespace WindowsFormsAlura
@@ -38,13 +39,23 @@ namespace WindowsFormsAlura
                 }
                 else
                 {
-                    if (resultado)
+                    Frm_Questao fq = new Frm_Questao("Frm_ValidaCPF2", "Valida aí pô");
+                    fq.ShowDialog();
+
+                    if (fq.DialogResult == DialogResult.OK)
                     {
-                        MessageBox.Show("CPF válido", "Validação de CPF", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        if (resultado)
+                        {
+                            MessageBox.Show("CPF válido", "Validação de CPF", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        else
+                        {
+                            MessageBox.Show("CPF inválido", "Validação de CPF", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
                     }
                     else
                     {
-                        MessageBox.Show("CPF inválido", "Validação de CPF", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
                     }
                 }
             }

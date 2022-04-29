@@ -189,5 +189,45 @@ namespace WindowsFormsAlura.Properties {
                 return ((System.Drawing.Icon)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_pasta_16 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_pasta_16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Icon semelhante a (Ícone).
+        /// </summary>
+        internal static System.Drawing.Icon icons8_pasta_161 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_pasta_161", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_question_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_question_64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Icon semelhante a (Ícone).
+        /// </summary>
+        internal static System.Drawing.Icon icons8_question_641 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_question_641", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
     }
 }

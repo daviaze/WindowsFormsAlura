@@ -8,10 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Imagens\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\WindowsFormsAluraBiblioteca\WindowsFormsAluraBiblioteca.csproj" />
   </ItemGroup>
 

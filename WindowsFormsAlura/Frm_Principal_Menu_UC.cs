@@ -17,6 +17,7 @@ namespace WindowsFormsAlura
         int ControleValidaCPF = 0;
         int ControleValidaCPF2 = 0;
         int ControleSenhaForte = 0;
+        int ControleArquivoImagem = 0;
         public Frm_Principal_Menu_UC()
         {
             InitializeComponent();
@@ -30,9 +31,9 @@ namespace WindowsFormsAlura
             f.Dock = DockStyle.Fill;
 
             TabPage t = new TabPage();
-            t.Name = "Mascara "+ControleMascara;
-            t.Text = "Mascara "+ControleMascara;
-            t.ImageIndex = 2;      
+            t.Name = "Mascara " + ControleMascara;
+            t.Text = "Mascara " + ControleMascara;
+            t.ImageIndex = 2;
             t.Controls.Add(f);
 
             Tbc_Aplicacoes.TabPages.Add(t);
@@ -97,6 +98,29 @@ namespace WindowsFormsAlura
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void abrirImagemToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog Db = new OpenFileDialog();
+            Db.InitialDirectory = "C:\\desenvolvimento\\CursoAlura\\WindowsFormsAlura\\WindowsFormsAlura\\Imagens";// o Open File irá sempre startar neste repositório
+            Db.Filter = "PNG|*.PNG"; // Vai filtrar somente os arquivos com esta extensão
+            Db.Title = "Escolha a Imagem";
+
+            if (Db.ShowDialog() == DialogResult.OK)
+            {
+                string nomeArquivoImagem = Db.FileName; // Pega o nome do arquivo que foi selecionado e clicado em OK em seguida
+
+                ControleArquivoImagem += 1;
+                Frm_ArquivoImagem_UC U = new Frm_ArquivoImagem_UC(nomeArquivoImagem); // Istancia o formulário a ser chamado
+                U.Dock = DockStyle.Fill; // Para ocupar toda a tela do tabcontrol
+                TabPage TB = new TabPage(); // Instancia a tabpage
+                TB.Name = "Arquivo Imagem " + ControleArquivoImagem;
+                TB.Text = "Arquivo Imagem " + ControleArquivoImagem;
+                TB.ImageIndex = 6; // Coloque aqui o índice da imagem que representa uma pasta
+                TB.Controls.Add(U);
+                Tbc_Aplicacoes.TabPages.Add(TB); // Adiciona o tabpage ao tabcontrol
+            }
         }
     }
 }

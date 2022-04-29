@@ -41,6 +41,8 @@ namespace WindowsFormsAlura
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fecharAbaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.windowsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.açõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.abrirImagemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Tbc_Aplicacoes = new System.Windows.Forms.TabControl();
             this.Iml_Imagens = new System.Windows.Forms.ImageList(this.components);
             this.menuStrip1.SuspendLayout();
@@ -50,7 +52,8 @@ namespace WindowsFormsAlura
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.arquivoToolStripMenuItem,
-            this.windowsToolStripMenuItem});
+            this.windowsToolStripMenuItem,
+            this.açõesToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -75,7 +78,7 @@ namespace WindowsFormsAlura
             this.validaCPF2ToolStripMenuItem,
             this.validaSenhaToolStripMenuItem});
             this.novoToolStripMenuItem.Name = "novoToolStripMenuItem";
-            this.novoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.novoToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.novoToolStripMenuItem.Text = "Novo";
             // 
             // mascaraToolStripMenuItem
@@ -117,14 +120,14 @@ namespace WindowsFormsAlura
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
             // fecharAbaToolStripMenuItem
             // 
             this.fecharAbaToolStripMenuItem.Name = "fecharAbaToolStripMenuItem";
-            this.fecharAbaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fecharAbaToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.fecharAbaToolStripMenuItem.Text = "Fechar Aba";
             this.fecharAbaToolStripMenuItem.Click += new System.EventHandler(this.fecharAbaToolStripMenuItem_Click);
             // 
@@ -133,6 +136,22 @@ namespace WindowsFormsAlura
             this.windowsToolStripMenuItem.Name = "windowsToolStripMenuItem";
             this.windowsToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
             this.windowsToolStripMenuItem.Text = "Windows";
+            // 
+            // açõesToolStripMenuItem
+            // 
+            this.açõesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.abrirImagemToolStripMenuItem});
+            this.açõesToolStripMenuItem.Name = "açõesToolStripMenuItem";
+            this.açõesToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
+            this.açõesToolStripMenuItem.Text = "Ações";
+            // 
+            // abrirImagemToolStripMenuItem
+            // 
+            this.abrirImagemToolStripMenuItem.Image = global::WindowsFormsAlura.Properties.Resources.icons8_pasta_16;
+            this.abrirImagemToolStripMenuItem.Name = "abrirImagemToolStripMenuItem";
+            this.abrirImagemToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.abrirImagemToolStripMenuItem.Text = "Abrir Imagem";
+            this.abrirImagemToolStripMenuItem.Click += new System.EventHandler(this.abrirImagemToolStripMenuItem_Click);
             // 
             // Tbc_Aplicacoes
             // 
@@ -155,6 +174,7 @@ namespace WindowsFormsAlura
             this.Iml_Imagens.Images.SetKeyName(3, "Frm_ValidaCPF.png");
             this.Iml_Imagens.Images.SetKeyName(4, "Frm_ValidaCPF2.png");
             this.Iml_Imagens.Images.SetKeyName(5, "Frm_ValidaSenha.png");
+            this.Iml_Imagens.Images.SetKeyName(6, "icons8-pasta-16.png");
             // 
             // Frm_Principal_Menu_UC
             // 
@@ -188,5 +208,7 @@ namespace WindowsFormsAlura
         private System.Windows.Forms.TabControl Tbc_Aplicacoes;
         private System.Windows.Forms.ImageList Iml_Imagens;
         private System.Windows.Forms.ToolStripMenuItem fecharAbaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem açõesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem abrirImagemToolStripMenuItem;
     }
 }

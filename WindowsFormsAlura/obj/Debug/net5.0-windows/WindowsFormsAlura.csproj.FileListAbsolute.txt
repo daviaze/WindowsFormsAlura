@@ -77,3 +77,4 @@ C:\desenvolvimento\CursoAlura\WindowsFormsAlura\WindowsFormsAlura\obj\Debug\net5
 C:\desenvolvimento\CursoAlura\WindowsFormsAlura\WindowsFormsAlura\obj\Debug\net5.0-windows\WindowsFormsAlura.UCs_Curso_2.Frm_ValidaSenhaForte_UC.resources
 C:\desenvolvimento\CursoAlura\WindowsFormsAlura\WindowsFormsAlura\obj\Debug\net5.0-windows\WindowsFormsAlura.Dialogs.Frm_Questao.resources
 C:\desenvolvimento\CursoAlura\WindowsFormsAlura\WindowsFormsAlura\obj\Debug\net5.0-windows\WindowsFormsAlura.UCs_Curso_2.Frm_ArquivoImagem_UC.resources
+C:\desenvolvimento\CursoAlura\WindowsFormsAlura\WindowsFormsAlura\obj\Debug\net5.0-windows\WindowsFormsAlura.Formularios_Curso_2.Frm_Login.resources

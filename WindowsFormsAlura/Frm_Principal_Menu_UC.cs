@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsAlura.Dialogs;
+using WindowsFormsAlura.Formularios_Curso_2;
 using WindowsFormsAlura.UCs_Curso_2;
 
 namespace WindowsFormsAlura
@@ -21,6 +23,11 @@ namespace WindowsFormsAlura
         public Frm_Principal_Menu_UC()
         {
             InitializeComponent();
+
+            novoToolStripMenuItem.Enabled = false;
+            fecharAbaToolStripMenuItem.Enabled = false;
+            abrirImagemToolStripMenuItem.Enabled = false;
+            desconectarToolStripMenuItem.Enabled = false;
         }
 
         private void mascaraToolStripMenuItem_Click(object sender, EventArgs e)
@@ -120,6 +127,62 @@ namespace WindowsFormsAlura
                 TB.ImageIndex = 6; // Coloque aqui o índice da imagem que representa uma pasta
                 TB.Controls.Add(U);
                 Tbc_Aplicacoes.TabPages.Add(TB); // Adiciona o tabpage ao tabcontrol
+            }
+        }
+
+        private void Frm_Principal_Menu_UC_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void conectarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Login F = new Frm_Login();
+            F.ShowDialog();
+
+            if (F.DialogResult == DialogResult.OK)
+            {
+
+                string senha = F.senha;
+                string login = F.login;
+
+                if (WindowsFormsAluraBiblioteca.Cls_Utils.ValidaSenhaLogin(senha) == true)
+                {
+                    novoToolStripMenuItem.Enabled = true;
+                    fecharAbaToolStripMenuItem.Enabled = true;
+                    abrirImagemToolStripMenuItem.Enabled = true;
+                    conectarToolStripMenuItem.Enabled = false;
+                    desconectarToolStripMenuItem.Enabled = true;
+
+                    MessageBox.Show("Bem vindo " + login + " !", "Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Senha inválida !", "Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+        private void desconectarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Questao Db = new Frm_Questao("icons8_question_64", "Você deseja se desconectar ?");
+            Db.ShowDialog();
+            //if (MessageBox.Show("Você deseja realmente validar o CPF?", "Mensagem de Validação", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+
+            if (Db.DialogResult == DialogResult.OK)
+            {
+                //Tbc_Aplicacoes.TabPages.Remove(Tbc_Aplicacoes.SelectedTab);
+
+                for (int i = Tbc_Aplicacoes.TabPages.Count - 1; i >= 0; i += -1)
+                {
+                    Tbc_Aplicacoes.TabPages.Remove(Tbc_Aplicacoes.TabPages[i]);
+                }
+
+                novoToolStripMenuItem.Enabled = false;
+                fecharAbaToolStripMenuItem.Enabled = false;
+                abrirImagemToolStripMenuItem.Enabled = false;
+                conectarToolStripMenuItem.Enabled = true;
+                desconectarToolStripMenuItem.Enabled = false;
             }
         }
     }
